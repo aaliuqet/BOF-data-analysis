@@ -9,7 +9,7 @@ from pymongo import MongoClient
 
 okt = konlpy.tag.Okt()
 
-client = MongoClient(host="1.234.51.110", port=38019, username='clawling', password='goodtime**95')
+client = MongoClient(host="", port=, username='', password='')
 db = client['OneAsia2024']
 
 collection = db['youtube_oneasia_crawling_japanese_year']
