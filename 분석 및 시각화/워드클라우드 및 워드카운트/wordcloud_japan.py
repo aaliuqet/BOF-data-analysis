@@ -9,7 +9,7 @@ from tqdm import tqdm
 import re
 
 # MongoDB 서버에 접속해서 필요한 정보를 불러옵니다.
-client = pymongo.MongoClient(host="1.234.51.110", port=38019, username='clawling', password='goodtime**95')
+client = pymongo.MongoClient(host="", port=, username='', password='')
 db = client['OneAsia2024']
 
 # 데이터 불러오기
