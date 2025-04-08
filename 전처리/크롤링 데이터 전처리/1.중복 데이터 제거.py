@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 
 # MongoDB 클라이언트 및 컬렉션 설정
-client = MongoClient(host="1.234.51.110", port=38019, username='clawling', password='goodtime**95')
+client = MongoClient(host="", port=, username='', password='')
 db = client['BOF2024_crawling']
 collection = db['tiktok_crawling'] 
 
